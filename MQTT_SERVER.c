@@ -34,7 +34,7 @@ int msgarrvd(void *context, char *topicName, int topicLen, MQTTClient_message *m
 	char ret_status = 0;
 	do{
 		/* Open file to read/write data on file */
-		fp = fopen("/home/pi/Data.txt", "a+");
+		fp = fopen("/home/iiot/Data.txt", "a+");
 		if (fp == NULL){
 			printf("Fail to open file in write mode %s in func %s ,line %d ", "/home/pi/debug.txt", __func__, __LINE__);
 			fclose(fp);
