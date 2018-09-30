@@ -1,11 +1,10 @@
-	
 #define _BOOTLOADER_C
 /****************************************************************************
 * Filename          : bootloader.c
 * Module            : bootloader flash
 * Author	    : Shilesh Babu
 *-------------------------------------------------------------------------------
-* Description       : This module enables the use of LED Module
+* Description       : This module used to received firmware from soc over uart and write it in  flash memory.
 *-------------------------------------------------------------------------------
 * Processor(s)      : MSP430FR68xx
 * Compiler(s)       : CCE Version: V6.1.1.00022(GCC)
