@@ -66,8 +66,8 @@ void Led_Init()
 #endif
 
 }
-/*LED all stop and Reset*/
-void Led_All_Stop()
+/*Led stop and Reset*/
+void Led_Stop()
 {
 	dbuff[0]=TLC59116_LEDOUT0;							// Turning OFF all LED On This command
 	dbuff[1]=0x00;
